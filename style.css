@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+:root{
+  --main_bg:#1e272e;
+  --main-color:#0097e6;
+
+}
+html{
+  font-size: 62.5%;
+}
+.row{
+  margin: 0;
+}
+.main_menu{
+  background-color: #1e272e;
+}
+.navbar{
+  color: #fff;
+  background-color: #1e272e;
+ /* width:100%; */
+  padding: 2 rem 0;
+
+}
+.navbar a{
+  color: #fff;
+  font-size: 1.8rem;
+}
+.navbar a:hover{
+  color: blue;
+
+}
+.navbar-toggler{
+  background-color: grey;
+
+}
+.navbar li {
+  margin-left: 20px;
+}
+.fa-sharp fa-solid fa-snowflake fa-snowflake{
+  transition: all linear;
+  animation: rot 2s linear infinite ;
+  color: #1e272e;
+
+
+}
+@keyframes rot{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.main_header_left{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+/* .main_header_left{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+
+} */
+.main_header_left p{
+  font-size: 2rem;
+}
+.main_header_left h1{
+  font-size: 4rem;
+  margin: 1rem 0 4rem 0;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.text_color{
+  color: blue;
+}
+.main_header_left  button{
+  height:40px;
+  width:120px;
+  border: none;
+  border-radius: 2rem;
+  background-color: #1e272e;
+  color: #fff;
+  font-size: 2rem;
+}
+button:hover{
+  background-color: red;
+}
+footer{
+  font-size: 2rem;
+  text-align: center;
+  background-color: #1e272e;
+  color: #fff;
+
+}
+ @media (max-width:768px) {
+  .main_header_left{
+    height: auto;
+    margin: 5rem 0;
+
+  }
+  
+} 
+.images {
+  text-align: center; /* Center the content */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.images a {
+  display: inline-block; /* Make the link wrap around the image */
+}
+
+.images img {
+  max-width: 100%; /* Ensure image responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners to the image */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better aesthetics */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.images img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.images img{
+  height:400px;
+  width:450px;
+}
+.images1 img{
+  margin-top: 80px;
+  height:400px;
+  width:750px;
+  display: inline;
+  margin-left: 340px;
+  
+}
+.images1 h2{
+  color: red;
+  font-size: 35px;
+  
+
+
+}
+.align_items_center button{
+  height:50px;
+  width:130px;
+  font-size: 20px;
+}
+.temp_info{
+  width:40rem;
+  margin: auto;
+  background-color: #1e272e;
+  color: #fff;
+  padding: 1rem;
+  min-height: 20rem;
+  border-radius: 1rem;
+  margin-top: 100px;
+  
+}
+.temp_form {
+  width: 60%;
+  position: relative;
+  margin:10rem auto 6rem;
+}
+.temp_form input[type="text"]
+{
+  width:100%;
+  padding: 2rem 5rem 2rem 2rem;
+  background: #1e272e;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 3rem;
+}
+::placeholder{
+  color: #fff;
+}
+.temp_form input[type="submit"]
+{
+  position: absolute;
+  top: 5px;
+  right:5px;
+  bottom: 5px;
+  background-color: #0097e6;
+  padding: 0 3rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.temp_form input[type="submit"]
+:hover{
+  color: red;
+  background-color: #fff;
+}
+
+
+.top_layer{
+  width: 100%;
+  height:30%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  }
+
+.weath {
+  margin-top: 180px;
+
+}
+.main_layer{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+
+}
+.middle_layer {
+  display: flex;
+  justify-content: space-around;
+}
+.middle_layer{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.fa-solid {
+  font-size: 3rem;
+  color: #0097e6;
+  border: none;
+
+}
+sup{
+  margin-top: -2rem;
+  font-size: 6rem;
+}
+/* .data_hide{
+  visibility: hidden;
+  transition: all 0.3s linear;
+} */
